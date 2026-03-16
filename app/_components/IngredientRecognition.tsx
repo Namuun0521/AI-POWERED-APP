@@ -94,7 +94,7 @@ export default function IngredientRecognition() {
 
         <textarea
           className="mt-4 w-full rounded-lg border p-2"
-          placeholder="Please write food name... EX: Buuz, pizza etc ..."
+          placeholder="Please write food name... example : buuz, pizza ..."
           value={text}
           onChange={(e) => setText(e.target.value)}
           disabled={isLoading}
